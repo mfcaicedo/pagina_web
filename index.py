@@ -11,5 +11,9 @@ def home():
 def about():
     return 'About'
 
+
+def information():
+    print("hello")
+
 if __name__ == '__main__':
     app.run(debug=True)
